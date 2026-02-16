@@ -1,6 +1,6 @@
 # Copper Price Forecast
 
-This project uses machine learning (Random Forest) to forecast future copper prices based on macroeconomic indicators.
+This project uses machine learning/deep learning (Random Forest as baseline, keep optimizing) to forecast future copper prices based on macroeconomic indicators.
 
 ## Features:
 - **Data Ingestion**: Fetches historical Copper, Gold, Oil, DXY, and macro data from Yahoo Finance & FRED.
