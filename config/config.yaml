@@ -1,0 +1,24 @@
+# Data sources configuration for Copper Price Forecasting
+# Yahoo Finance Tickers (Key: Name, Value: Ticker)
+yfinance_tickers:
+  Copper_Price: 'HG=F'
+  Gold_Price: 'GC=F'
+  DXY: 'DX-Y.NYB'
+  SP500: '^GSPC'
+  NVDA: 'NVDA'
+
+# FRED Series IDs (Key: Series ID, Value: Name)
+fred_indicators:
+  DGS10: 'US_10yr_Yield'
+  MABMM301CNM189S: 'China_Manuf_Prod'
+  TOTALSA: 'US_Auto_Sales'
+  PPIACO: 'PPI_All_Commodities'
+  PALUMUSDM: 'Aluminum_Price'
+  DEXUSAL: 'AUD_USD'
+  DCOILWTICO: 'Oil_Price'
+
+# Date Range
+start_date: '2000-01-01'
+end_date: '2024-12-31'
+
+
